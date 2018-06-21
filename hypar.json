@@ -1,0 +1,25 @@
+{
+  "function": "ModularHousing.modularHousing",
+  "runtime": "python3.6",
+  "parameters":{
+    "xUnits": {
+      "description": "Unit row modules.",
+      "max": 5,
+      "min": 1,
+      "step": 1,
+      "type": "number"    
+    },
+    "bedBath": {
+      "description": "Bedroom baths.",
+      "max": 1,
+      "min": 0,
+      "step": 1,
+      "type": "number"    
+    }
+  },
+  "returns": {
+    "modules": {
+      "description": "Total number of modules."
+    }
+  }
+}
