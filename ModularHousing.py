@@ -230,7 +230,7 @@ def modularHousing(xUnits: int = 1, bedBath = 0):
             mesh = unit.mesh_graphic
             model.add_triangle_mesh(mesh.vertices, mesh.normals, mesh.indices, colorYellow)            
             rooms.remove("Hall")
-    modules = spaces.count
+    modules = len(spaces)
     return {"model": model.save_base64(), 'computed':{'Total modules':modules}}   
 #    model.save_glb('C:\\Users\\Anthony\\Dropbox\\Business\\BlackArts\\Development\\GitHub\\ModularHousing\\model.glb')
 #
