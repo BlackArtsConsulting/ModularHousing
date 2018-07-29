@@ -232,7 +232,7 @@ def modularHousing(xUnits: int = 1, bedBath = 0):
             rooms.remove("Hall")
     modules = len(spaces)
     return {"model": model.save_base64(), 'computed':{'Total modules':modules}}   
-#    model.save_glb('C:\\Users\\Anthony\\Dropbox\\Business\\BlackArts\\Development\\GitHub\\ModularHousing\\model.glb')
+#    model.save_glb('model.glb')
 #
 #modularHousing(xUnits = randint(1, 4), 
 #               bedBath = randint(0, 1)) 

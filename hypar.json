@@ -1,15 +1,21 @@
 {
+  "respository_url": "https://github.com/BlackArtsConsulting/ModularHousing",
   "function": "ModularHousing.modularHousing",
+  "name": "Modular Housing.",  
+  "description": "Create configurations of housing modules.",
   "runtime": "python3.6",
-  "parameters":{
-    "xUnits": {
+  "parameters":
+  {
+    "xUnits": 
+    {
       "description": "Unit row modules.",
       "max": 5,
       "min": 1,
       "step": 1,
       "type": "number"    
     },
-    "bedBath": {
+    "bedBath": 
+    {
       "description": "Bedroom baths.",
       "max": 1,
       "min": 0,
@@ -17,8 +23,10 @@
       "type": "number"    
     }
   },
-  "returns": {
-    "modules": {
+  "returns": 
+  {
+    "modules": 
+    {
       "description": "Total number of modules."
     }
   }
